@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f7; /* Light beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4caf50; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #81c784; /* Lighter green on hover */
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White content background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content h1,
+.content h2 {
+    color: #4caf50; /* Dark green headings */
+    text-align: center;
+}
+
+.waste-management-info {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.waste-types li,
+.waste-management-tips li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.waste-types li:before,
+.waste-management-tips li:before {
+    content: "•";
+    color: #4caf50; /* Dark green bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+.navigation-table {
+    width: 100%;
+    background-color: #f0f8f7; /* Light beige background for navigation */
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen; /* Slightly darker gray on hover */
+}
+
+.footer-container {
+    background-color: #4caf50; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

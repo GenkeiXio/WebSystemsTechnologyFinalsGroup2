@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f7; /* Light beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4caf50; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #81c784; /* Lighter green on hover */
+}
+
+/* Additional CSS styles for main content */
+.main-content {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Center the content and add space around it */
+    max-width: 800px; /* Limit width for better readability */
+}
+
+.main-heading {
+    text-align: left; /* Left-align the main heading */
+    margin-bottom: 20px;
+    font-size: 24px; /* Larger font size for headings */
+    color: green; /* Darker text color */
+    text-align: center;
+}
+
+.content-paragraph {
+    text-align: justify;
+    font-size: 18px; /* Slightly smaller font size for paragraphs */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add bottom margin for separation */
+}
+
+.sub-heading {
+    margin-top: 30px;
+    font-size: 20px; /* Adjust font size for sub-headings */
+    color: green;
+}
+
+/* CSS for navigation table */
+.navigation-table {
+    width: 100%;
+    background-color: #f0f8f7; /* Light beige background for navigation */
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen; /* Slightly darker gray on hover */
+}
+
+/* CSS for footer */
+.footer-container {
+    background-color: #4caf50; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

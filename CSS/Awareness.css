@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f7; /* Light beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4caf50; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #81c784; /* Lighter green on hover */
+}
+
+/* Main Heading */
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e8540;
+  }
+
+  /* Table Container */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  /* Image Container */
+  .image-container {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  /* Text Container */
+  .text-container {
+    width: 70%;
+  }
+
+  /* Waste Image */
+  .waste-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Content Paragraph */
+  .content-paragraph {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+  }
+
+  /* Benefits List */
+  .benefits-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+
+  /* Benefits List Items */
+  .benefits-list li {
+    margin-bottom: 10px;
+  }
+
+/* CSS for navigation table */
+.navigation-table {
+    width: 100%;
+    background-color: #f0f8f7; /* Light beige background for navigation */
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen; /* Slightly darker gray on hover */
+}
+
+/* CSS for footer */
+.footer-container {
+    background-color: #4caf50; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9f5f1; /* Light green background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Updated header styles */
+.header {
+  background-color: #3e6846; /* Dark green header */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #558e64; /* Lighter green on hover */
+}
+
+  /* Updated content styles */
+  .content-container {
+    text-align: center;
+    padding: 20px;
+    background-color:#62fcaf; /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  .content-paragraph {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333; /* Text color for better readability */
+  }
+
+  .content-image-container {
+    margin-top: 20px;
+    border-radius: 10px; /* Rounded corners for the image container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  .content-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    /*background: linear-gradient(to bottom right, #c9e4e6, #7bed9f); */
+  }
+  
+  /* CSS for footer table */
+.footer-container {
+  background-color: #3e6846; /* Dark green footer */
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover */
+}

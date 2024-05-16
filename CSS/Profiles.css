@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f5f1; /* Light green background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Updated header styles */
+.header {
+    background-color: #3e6846; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #558e64; /* Lighter green on hover */
+}
+
+/* CSS for team heading */
+.team-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-heading {
+    color: #3e6846; /* Dark green text */
+}
+
+.team-member {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #c9e4e6, #7bed9f);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin-bottom: 20px;
+    width: 250px; /* Adjust width as needed */
+}
+
+.member-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; /* Rounded member images */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.member-details {
+    text-align: center;
+}
+
+/* CSS for footer table */
+.footer-container {
+    background-color: #3e6846; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

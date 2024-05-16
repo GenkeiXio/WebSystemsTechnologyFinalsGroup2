@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f5f1; /* Light green background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Updated header styles */
+.header {
+    background-color: #3e6846; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #558e64; /* Lighter green on hover */
+}
+
+/* Content Styles */
+.content {
+    margin: 20px;
+    color: #333; /* Dark text color */
+  }
+
+  .content h2 {
+    color: #138d75; /* Dark green heading */
+  }
+
+  .content p strong {
+    color: #138d75; /* Dark green strong text */
+  }
+
+  .content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .content ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content ul li:before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #138d75; /* Dark green bullet color */
+  }
+
+  /* Social Link Styles */
+  .social-link {
+    color: #138d75; /* Dark green social link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .social-link:hover {
+    text-decoration: underline;
+  }
+
+/* CSS for footer table */
+.footer-container {
+    background-color: #3e6846; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

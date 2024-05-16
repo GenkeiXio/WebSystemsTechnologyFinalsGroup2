@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f7; /* Light beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4caf50; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #81c784; /* Lighter green on hover */
+}
+
+/* CSS for main heading */
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green; /* Blue color for emphasis */
+}
+
+/* CSS for content container */
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background for the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* CSS for content table */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* CSS for image column */
+.image-column {
+    width: 30%; /* Increased width for the image */
+    vertical-align: top;
+}
+
+/* CSS for text column */
+.text-column {
+    width: 70%; /* Decreased width for the text */
+    vertical-align: top;
+}
+
+/* CSS for effects list */
+.effects-list {
+    font-size: 18px;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333; /* Dark grey for better readability */
+}
+
+/* Additional styles for combined code */
+/* CSS for table container */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* CSS for image container */
+.image-container {
+    width: 100%;
+    margin-bottom: 20px; /* Added margin below the image */
+}
+
+/* CSS for text container */
+.text-container {
+    width: 100%;
+}
+
+/* CSS for waste image */
+.waste-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures the image takes full width */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 20px; /* Added margin below the image */
+}
+
+/* CSS for navigation table */
+.navigation-table {
+    width: 100%;
+    background-color: #f0f8f7; /* Light beige background for navigation */
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen; /* Slightly darker gray on hover */
+}
+
+/* CSS for footer */
+.footer-container {
+    background-color: #4caf50; /* Dark green footer */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
